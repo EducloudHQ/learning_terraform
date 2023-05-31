@@ -1,6 +1,8 @@
 ## Introduction
 
-In this project, we'll learn how to deploy an EC2(Elastic Cloud Compute) server, connected  to a load balancer and a security group.
+In this project, we'll learn how to deploy an EC2(Elastic Cloud Compute) instance, connected  to a load balancer and a security group.
+
+An EC2 instance is a virtual machine that runs on AWS infrastructure.
 
 The Purpose of this project is to learn how to use `provider, resources, variables, outputs and modules` of terraform.
 
@@ -19,3 +21,8 @@ To deploy infrastructure with Terraform:
 - **Initialize:** Install the plugins Terraform needs to manage the infrastructure.
 - **Plan:** Preview the changes Terraform will make to match your configuration.
 - **Apply:** Make the planned changes.
+
+
+## Solutions Architecture 
+
+![alt text](../../assets/tf_intro.png)
