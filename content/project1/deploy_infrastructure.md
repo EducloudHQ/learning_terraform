@@ -34,6 +34,7 @@ This command creates, updates, or destroys infrastructure resources based on the
 
 You will need to provide a vpc id and enter yes when the prompt will ask.
 
+
 Finally, if you want to destroy your resource.
 
 ```
