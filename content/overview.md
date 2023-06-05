@@ -1,7 +1,6 @@
 # Introduction to Terraform
 
-![alt text](assets/terraform.png)
-
+![alt text](https://raw.githubusercontent.com/EducloudHQ/learning_terraform/master/assets/terraform.png)
 When developing applications for the cloud,engineers are constantly defining resources, managing those resources, sharing the resource configuration across team members, in order to ensure consistency, versioning and a lot more.
 
 All these are accomplished using Infrastructure as Code(Iac) tools.

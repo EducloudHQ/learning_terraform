@@ -12,8 +12,8 @@ There are tons of providers to manage resources on Amazon Web Services(AWS),Azur
 
 You can compose `resources` from different providers into reusable Terraform configurations called `modules`, and manage them with a consistent language and workflow.
 
-![alt text](../../assets/terraform.png)
 
+![alt text](https://raw.githubusercontent.com/EducloudHQ/learning_terraform/master/assets/terraform.png)
 To deploy infrastructure with Terraform:
 
 - **Scope:** Identify the infrastructure for your project.
@@ -25,4 +25,4 @@ To deploy infrastructure with Terraform:
 
 ## Solutions Architecture 
 
-![alt text](../../assets/tf_intro.png)
+![alt text](https://raw.githubusercontent.com/EducloudHQ/learning_terraform/master/assets/tf_intro.png)
