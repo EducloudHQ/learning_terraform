@@ -9,7 +9,7 @@ After successfully installing Terraform, verify your installation by running thi
 
 Let's get Started.
 
-From your CLI, let's create a folder called `introduction_tf` and cd into it
+From your CLI, let's create a folder called `introduction_tf` and cd(change directory) into it
 
 ```
 mkdir introduction_tf
@@ -22,32 +22,21 @@ Now, we are going to define the provider we'll be using.
 
 Type this code into the `main.tf` file.
 
-```
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.16"
+ ```
+  terraform {
+    required_providers {
+      aws = {
+        source  = "hashicorp/aws"
+        version = "~> 4.16"
+      }
     }
+
+    required_version = ">= 1.2.0"
   }
+  ```
+The `required_providers` block specifies that this configuration requires the AWS provider from HashiCorp with a version of at least 4.16 and a Terraform 
+version of 1.2.0 or later.
 
-  required_version = ">= 1.2.0"
-}
-
-provider "aws" {
-  region = var.region
-  profile = var.profile
-}
-```
-This configuration file allows Terraform to create and manage resources on AWS using the specified provider settings.
-
-The provider block configures the AWS provider with the values of the region and profile variables, which must be defined elsewhere in the configuration or passed as input variables.
-
-We'll be using the default VPC(virtual private container) container, created by amazon in our region.
-
-Inside this VPC, we'll create `security groups` `an ec2 instance` and an `application load balancer`.
-
-Before creating these resources, we need to define some variables that we are going to use in the root module.
 
 
 

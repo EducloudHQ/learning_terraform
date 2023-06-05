@@ -1,6 +1,10 @@
 In this project, we'll learn how to build a system to schedule data backups from a DynamoDB table to an AWS S3 bucket using a step functions workflow and an
 EventBridge schedular.
 
+Once deployed, EventBridge scheduler invokes the Step Function every day at 12 pm and passes the bucket and table name to the Step Function. 
+
+The Step Function then invokes a Lambda function that fetches data from a DynamoDB table and stores it in an S3 bucket as a JSON file.
+
 Here are the tools and AWS Serverless Services we'll be using to accomplish this task:
 
 * **DynamoDB** : The source database that contains the data to be backed up.
