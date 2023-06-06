@@ -39,3 +39,10 @@ The `role_arn` argument specifies the ARN of the IAM role to assume when invokin
 The `input` argument specifies the JSON input to pass to the target.
 
 In this case, the target is a Step Functions state machine resource named `backup_dynamodb_to_s3`, and the input includes the ID of an S3 bucket resource named `backup_bucket` and a table name.
+
+We're done creating all resources. 
+
+Let's proceed to deploy the application.
+
+
+

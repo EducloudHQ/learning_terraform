@@ -1,6 +1,6 @@
 ## Deploying The Infrastructure
 
-First we need to initialize our infrastructure so that terraform can download the necessary provider and module.
+First, we need to initialize our infrastructure so that terraform can download the necessary provider and module.
 
 ```
 $ terraform init
