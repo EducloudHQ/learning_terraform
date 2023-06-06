@@ -23,6 +23,8 @@ Content
             |- 2.9.create_step_functions_state_machine_resource.md  
             |- 3.0.create_cloudwatch_event_rule.md  
             |- 3.1.deploy_infrastructure.md  
+            |- 3.2.testing_infrastructure.md
+
 
 
 
