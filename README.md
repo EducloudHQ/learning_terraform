@@ -1,6 +1,6 @@
 ```
 Content
-    |- 1.Project1
+    |- 1.Project_one
             |- 1.1.introduction.md
             |- 1.2.installation.md
             |- 1.3.defining_variables.md
@@ -10,7 +10,7 @@ Content
             |- 1.6.create_application_load_balancer.md
             |- 1.7.deploy_infrastructure.md
             |- 1.8.testing_infrastructure.md
-    |- 2.Project2
+    |- 2.Project_two
             |- 2.1.introduction.md
             |- 2.2.installation.md
             |- 2.3.create_terraform_provider_block.md
